@@ -1,7 +1,7 @@
 <section class="choose__area-three whychoose__area-home7 shortcode-about-us-information shortcode-about-us-information-style-7" @style($variablesStyle)>
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-7 col-md-9">
+            <div class="col-lg-6 col-md-9">
                 <div class="choose__img-wrap-home7">
                     @if ($image = $shortcode->image)
                         <div class="main-img-why">

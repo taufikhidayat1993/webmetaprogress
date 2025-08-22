@@ -1,7 +1,7 @@
-<section class="about__area-four shortcode-about-us-information shortcode-about-us-information-style-9" @style($variablesStyle)>
+<section class="about__area-four shortcode-about-us-information shortcode-about-us-information-style-9 pt-120 pb-120" @style($variablesStyle)>
     <div class="container">
         <div class="row align-items-center justify-content-center">
-            <div class="col-lg-6 mb-30">
+            <div class="col-lg-7 mb-30">
                 <div class="about__content-four">
                     <div class="section-title mb-30">
                         @if ($subtitle = $shortcode->subtitle)
@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-9 col-sm-10 mb-30">
+            <div class="col-lg-5 col-md-9 col-sm-10 mb-30">
                 <div class="about__img-wrap-four about__img-wrap-home8">
                     @if ($image = $shortcode->image)
                         {{ RvMedia::image($image, 'image') }}
