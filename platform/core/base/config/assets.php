@@ -374,8 +374,7 @@ return [
                     'local' => '/vendor/core/core/base/css/core.css',
                 ],
             ],
-            'fontawesome' => [
-                'use_cdn' => true,
+        ],
                 'location' => 'header',
                 'src' => [
                     'local' => '/vendor/core/core/base/libraries/font-awesome/css/fontawesome.min.css',
@@ -554,6 +553,5 @@ return [
                     'cdn' => '//cdnjs.cloudflare.com/ajax/libs/tagify/4.16.4/tagify.css',
                 ],
             ],
-        ],
-    ],
-];
+        ];
+
